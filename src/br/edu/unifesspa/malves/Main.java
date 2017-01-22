@@ -21,19 +21,7 @@ import br.edu.unifesspa.malves.tests.Grafico10;
 public class Main {
 
 	public static void main(String[] args) {
-		//Variando a Radiação
 	
- /* new Grafico02();
-		new Grafico03();				
-		new Grafico04();
-				
-		//Variando a Densidade de Usuários
-		new Grafico05();
-		new Grafico06();
-		new Grafico07();
-		new Grafico08();
-		*/
-		
-		new Grafico10();
+		new Grafico02();
 	}
 }

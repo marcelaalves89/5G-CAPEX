@@ -139,7 +139,7 @@ public class GraficoLinha extends ApplicationFrame {
 		
 		OutputStream arquivo;
 		try {
-			arquivo = new FileOutputStream("c:/users/hugo/desktop/5g2/"+this.tituloJanela+".png");
+			arquivo = new FileOutputStream("/home/hugo/desktop/5g2/"+this.tituloJanela+".png");
 			ChartUtilities.writeChartAsPNG(arquivo, chart, 600, 500);
 			arquivo.close();
 		} catch (FileNotFoundException e) {			
